@@ -1,0 +1,5 @@
+--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include
+-I.\RTE\_main_control1.0
+-ID:\keil5\ARM\PACK\ARM\CMSIS\6.1.0\CMSIS\Core\Include
+-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx
+-o "main control1.0\attact.o" --omf_browse "main control1.0\attact.crf" --depend "main control1.0\attact.d" "..\Core\Src\attact.c"
